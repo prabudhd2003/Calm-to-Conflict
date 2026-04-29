@@ -12,6 +12,7 @@ Calm-To-Conflict/
 ├── Text_Feature_Extraction/  
 ├── Early_Fusion_LSTM/
 ├── Early_Fusion_MLP/
+├── Gemini_Embeddings/  
 ├── MulT.ipynb                       # Multimodal Transformer
 ├── MulT_hpc_scripts/
 │   ├── run_all_ablations.sh         # SLURM array job dispatcher (22 experiments)
