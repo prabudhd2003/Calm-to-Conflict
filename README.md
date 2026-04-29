@@ -25,7 +25,7 @@ Calm-To-Conflict/
 ├── Mult_results_summary.csv         # Summary of results for all 22 MulT experiments
 └── MulT_master_results.json         # Combined per-experiment JSON results for MulT
 ```
-[
+
 ## MulT.ipynb
 
 Readable version of the full MulT pipeline. Five sections run end-to-end.
