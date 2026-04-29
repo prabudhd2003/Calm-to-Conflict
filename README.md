@@ -8,6 +8,10 @@ Utterance-level conflict onset prediction in dyadic video interactions. This rep
 
 ```
 Calm-To-Conflict/
+├── Audio_Feature_Extraction/                      
+├── Text_Feature_Extraction/  
+├── Early_Fusion_LSTM/
+├── Early_Fusion_MLP/
 ├── MulT.ipynb                       # Multimodal Transformer
 ├── MulT_hpc_scripts/
 │   ├── run_all_ablations.sh         # SLURM array job dispatcher (22 experiments)
@@ -21,42 +25,7 @@ Calm-To-Conflict/
 ├── Mult_results_summary.csv         # Summary of results for all 22 MulT experiments
 └── MulT_master_results.json         # Combined per-experiment JSON results for MulT
 ```
-
----
-## Video Feature Extraction
-
-[TO-DO]
-
----
-
-## Audio Feature Extraction
-
-[TO-DO]
-
----
-
-## Text Feature Extraction
-
-[TO-DO]
-
----
-
-## Baseline Models
-
-### Early Fusion MLP
-
-[TO-DO]
-
-### Feature-Level LSTM
-
-[TO-DO]
-
-### Gemini Model Embedding
-
-[TO-DO]
-
----
-
+[
 ## MulT.ipynb
 
 Readable version of the full MulT pipeline. Five sections run end-to-end.
